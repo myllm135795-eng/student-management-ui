@@ -4,6 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import StudentList from './components/StudentList';
 import StudentForm from './components/StudentForm';
+import ChatbotPanel from './components/ChatbotPanel';
 import './App.css';
 
 function App() {
@@ -52,6 +53,9 @@ function App() {
           </Col>
         </Row>
       </Container>
+      
+      {/* AI Chatbot Panel */}
+      <ChatbotPanel />
       
       <ToastContainer 
         position="bottom-right"
