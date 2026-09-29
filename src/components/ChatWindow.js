@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Form, Button, Spinner, Alert } from 'react-bootstrap';
+import { Form, Button, Spinner } from 'react-bootstrap';
 import { FiSend } from 'react-icons/fi';
 import { toast } from 'react-toastify';
 import ChatMessage from './ChatMessage';
