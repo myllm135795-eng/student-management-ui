@@ -10,12 +10,12 @@ const ChatWindow = () => {
   const [messages, setMessages] = useState([
     {
       id: 1,
-      text: 'Hi! 👋 I\'m your Student Management Assistant. I can help you with:
+      text: `Hi! 👋 I'm your Student Management Assistant. I can help you with:
         • Managing student records
         • Getting student information
         • Answering questions about your student database
         
-Feel free to ask me anything!',
+Feel free to ask me anything!`,
       isUser: false
     }
   ]);
@@ -83,7 +83,12 @@ Feel free to ask me anything!',
     setMessages([
       {
         id: 1,
-        text: 'Hi! 👋 I\'m your Student Management Assistant. How can I help you today?',
+        text: `Hi! 👋 I'm your Student Management Assistant. I can help you with:
+        • Managing student records
+        • Getting student information
+        • Answering questions about your student database
+        
+Feel free to ask me anything!`,
         isUser: false
       }
     ]);
